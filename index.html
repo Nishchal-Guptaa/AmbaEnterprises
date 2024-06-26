@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/static/logo.webp">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+    <link rel="stylesheet" href="/static/style.css">
+    <title>AMBA ENTERPRISES</title>
+</head>
+
+<body>
+
+    <nav>
+        <h2 id="Amba">Amba Enterprises</h2>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#0f0f0f">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </label>
+
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#f0f0f0">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </label>
+
+            <a class="home-link" href="#Amba">Home</a>
+            <a href="#about">About</a>
+            <a href="#brands">Brands</a>
+            <a href="#products">Products</a>
+            <a href="#firm">Contact</a>
+        </div>
+    </nav>
+
+    <div class="con">
+        <!-- Home -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="/static/pipes.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="/static/fittings.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="/static/power tools.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="/static/Fire-Safety-Equipments.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="/static/nutsboltsfastners.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="title">
+            <!-- <h2>AMBA ENTERPRISES</h2> -->
+        </div>
+        <div class="some">
+            <p>Pipes & Fittings, Hardware & Industrial Tools, Safety Equipments, Welding Equipments, Fire Safety
+                Equipments, Industrial Gases, Nuts Bolts & Fastners, etc.</p>
+        </div>
+        <div class="about">
+            <div id="about">
+                <h3>ABOUT US</h3>
+            </div>
+            <p>Since 2011, we have become masters of our work. Our commitment to quality products, exceptional
+                services
+                and incomparable customer satisfaction keep our community coming back again and again. We never stop
+                improving, and are continuing to expand our offerings based on how we can best serve our country.
+                <span style="color: rgb(0, 213, 255);">AMBA
+                    ENTERPRISES</span> has been proudly providing high quality products and services since 2011. What
+                differentiates us from other businesses is our ability to truly connect with our customers, and
+                provide
+                the exceptional, compassionate service they deserve.
+            </p>
+            <div class="gst">
+                <p><span>GST:</span>06AFLPG9043H1ZD</p>
+            </div>
+        </div>
+        <div class="brands">
+            <div id="brands">
+                <H3>OUR TRUSTED BRANDS</H3>
+            </div>
+            <div class="s-img">
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/unik.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*UNIK*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/Supreme.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*SUPEREME*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/hilti.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*HILTI*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/Inder.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*INDER*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/sant.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*SANT*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/zoloto.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*ZOLOTO*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/mangalam.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*MANGALAM*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/Astral.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*ASTRAL*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/Jindal.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*JINDAL*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/Dewalt.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*DEWALT*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/tyco.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*TYCO*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/drp.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*DRP*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/taparia.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*TAPARIA*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/heapro.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*HEAPRO*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- image -->
+                    <div class="image">
+                        <img src="/static/esab.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*ESAB*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div id="products">
+                <h3>OUR PRODUCTS</h3>
+            </div>
+            <form action="#" class="search" id="search">
+                <input type="text" placeholder="&#xf002; Search Products" class="fa form-control" id="searchInput">
+            </form>
+            <div class="p-img" id="itemsContainer">
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/ppiippeess.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">pipes</p>
+                        <h3>Pipes</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*PIPES*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/fittingsss.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">fittings</p>
+                        <h3>Fittings</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*FITTINGS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/powertools.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Drill Machine, Grinders, Cut of Machines, Air Blowers</p>
+                        <h3>Power Tools</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*POWER%20TOOLS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/hilti-products.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Power Tool Fittings, Hilti products</p>
+                        <h3>Power Tool Accessories</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*POWER%20TOOL%20ACCESSORIES*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/hand tools.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Hand Tools, Hammer, Screwdrivers, pliers, wrench, chisel,
+                            spanner, tester, cutter</p>
+                        <h3>Hand Tools</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*HAND%20TOOLS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/welding.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Welding</p>
+                        <h3>Welding Equipments</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*WELDING%20EQUIPMENTS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/welding-safety.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">safety equipments, goggles, helmet, gloves, boots,
+                            jackets</p>
+                        <h3>Safety Equipments</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*SAFETY%20EQUIPMENTS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/fire-management.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Fire Fighting, Extinguisher, Fire Hose</p>
+                        <h3>Fire Safety Equipments</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*FIRE%20FIGHTING%20PRODUCTS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/threaded-rod.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">threaded rod</p>
+                        <h3>Threaded Rods</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*THREADED%20RODS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/flanges.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Flanges</p>
+                        <h3>Flanges</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*FLANGES*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/mig wire.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Mig Wire</p>
+                        <h3>Mig Wire</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*MIG%20WIRE*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+                <div class="box1 item">
+                    <!-- image -->
+                    <div class="image1">
+                        <img src="/static/hose clamps.webp" alt="Product 1">
+                    </div>
+                    <div class="content1">
+                        <p id="element" style="display: none;">Hose Clamps</p>
+                        <h3>Hose Clamps</h3>
+                        <button class="fa"><a href="https://wa.me/9811103866?text=Hi%20I%20want%20to%20know%20about%20*HOSE%20CLAMPS*">&#xf232; Inquire Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="back-to-top" onclick="scrollToTop()">Back To Top</div>
+        <div class="details">
+        </div>
+
+        <h2 id="firm">AMBA ENTERPRISES</h2>
+        <p id="hare-krishna">&copy; 2024 AMBA ENTERPRISES | ALL RIGHTS RESERVED</p>
+        <div class="strip">
+            <div class="cont" id="one">
+                <p>Contact: <a href="tel:+91 9811103866">+91 9811103866</a> | <a href="tel:+91 9899991750">+91
+                        9899991750</a> | <a href="tel:+91 9999618755">+91 9999618755</a></p>
+                <p>Email: <a href="mailto:ajay_amba@ymail.com">ajay_amba@ymail.com</a></p>
+                <p>Opening Hours: Mon-Sat: 10:30 AM - 7:30 PM</p>
+                <p>Closing Hours: Sun: Closed</p>
+                <p>Address: Amba Enterprises, Bara Bazar, Basai Road, Gurugram (Hr.)122001</p>
+            </div>
+            <div class="cont" id="three">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.721420480148!2d77.024696!3d28.457812999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1830581572f5%3A0x50a48c58c834b017!2sAmba%20Enterprises!5e0!3m2!1sen!2sin!4v1706975089291!5m2!1sen!2sin"
+                    width="300" height="150" style="border:2px solid black;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        document.getElementById('searchInput').addEventListener('input', function () {
+            filterItems();
+        });
+
+        document.querySelector('.search button').addEventListener('click', function () {
+            filterItems();
+        });
+
+        function filterItems() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const items = document.querySelectorAll('#itemsContainer .item');
+
+            items.forEach(function (item) {
+                const hiddenText = item.querySelector('#element').textContent.toLowerCase();
+                if (hiddenText.includes(input)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+
+</html>
